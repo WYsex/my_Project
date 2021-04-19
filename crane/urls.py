@@ -1,0 +1,48 @@
+from django.urls import path,re_path
+from .views import *
+
+urlpatterns = [
+    path('login/',login),
+    path('index/',index),
+    path('adddoc/',addDoc),
+    path('alerts/',alerts),
+    path('buttons/',buttons),
+    path('cards/',cards),
+    path('chartjs/',chartjs),
+    path('checkbox/',checkbox),
+    path('colorpicker/',colorpicker),
+    path('config/',config),
+    path('configupload/',configUpload),
+    path('datatable/',dataTable),
+    path('datepicker/',datepicker),
+    path('doc/',doc),
+    path('editpwd/',editpwd),
+    path('elements/',elements),
+    path('error/',error),
+    path('formswitch/',formSwitch),
+    path('gallery/',gallery),
+    path('grid/',grid),
+    path('guide/',guide),
+    path('icons/',icons),
+    path('jconfirm/',jconfirm),
+    path('main/',main),
+    path('modals/',modals),
+    path('notify/',notify),
+    path('onfigsystem/',onfigSystem),
+    path('other/',other),
+    path('pagination/',pagination),
+    path('profile/',profile),
+    path('progress/',progress),
+    path('rabc/',rabc),
+    path('radio/',radio),
+    path('sliders/',sliders),
+    path('step/',step),
+    path('tables/',tables),
+    path('tabs/',tabs),
+    path('taginput/',tagInput),
+    path('tooltipspopover/',tooltipsPopover),
+    path('typography/',typography),
+
+
+
+]
